@@ -14,8 +14,8 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 // Pin definitions
 #define CHANNEL 1
-#define CURSOR_UP_PIN 14    // Cursor Up
-#define CURSOR_DOWN_PIN 15  // Cursor Down
+#define CURSOR_UP_PIN 5    // Cursor Up
+#define CURSOR_DOWN_PIN 13  // Cursor Down
 #define ANGLE_UP_PIN 16     // Angle Up
 #define ANGLE_DOWN_PIN 17   // Angle Down
 #define ENTER_PIN 18        // Enter Button
